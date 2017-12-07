@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="space.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Herschel's Simulacrum</title>
+	</head>
+	<body>
+		<div class="space-flex">
+			<div class="box n0" id="zero" onclick="expandSun(this)">
+				<div class="blank"></div>
+				<div class="sun overflow">
+					<img class="sol" src="" />
+				</div>
+				<div class="blank">
+					<p class="txt1 text-hide" id="suntxt"><span class="sizeUp">SUN</span><br><span class="italic">Sol</span><br><span class="subText">Diameter: 1.39 million kM<br>Mass: ~1.99 x 10<sup>30</sup> Kg<br>Spectral Class: G2V<br>Distance: ~1 AU</span></p>
+				</div>
+			</div>
+			<div class="box n1" id="one" onclick="expandMercury(this)" >
+				<div class="blank"></div>
+				<div class="mercury overflow">
+					<img class="p1" src="" />
+				</div>
+			</div>
+			<div class="box n2" id="two" onclick="expandVenus(this)" >
+				<div class="blank"></div>
+				<div class="venus overflow">
+					<img class="p2" src="" />
+				</div>
+			</div>
+			<div class="box n3" id="three" onclick="expandEarth(this)" >
+				<div class="blank"></div>
+				<div class="earth overflow">
+					<img class="p3" src="" />
+				</div>
+			</div>
+			<div class="box n4" id="four" onclick="expandMars(this)" >
+				<div class="blank"></div>
+				<div class="mars overflow">
+					<img class="p4" src="" />
+				</div>
+			</div>
+			<div class="box n6" id="six" onclick="expandJupiter(this)" >
+				<div class="blank"></div>
+				<div class="jupiter overflow">
+					<img class="p5" src="" />
+				</div>
+			</div>
+			<div class="box n7" id="seven" onclick="expandSaturn(this)" >
+				<div class="blank"></div>
+				<div class="saturn overflow">
+					<img class="p6" src="" />
+				</div>
+			</div>
+			<div class="box n8" id="eight" onclick="expandUranus(this)" >
+				<div class="blank"></div>
+				<div class="uranus overflow">
+					<img class="p7" src="" />
+				</div>
+			</div>
+			<div class="box n9" id="nine" onclick="expandNeptune(this)" >
+				<div class="blank"></div>
+				<div class="neptune overflow">
+					<img class="p8" src="" />
+				</div>
+			</div>
+			<div class="box n10" id="ten" onclick="expandPluto(this)" >
+				<div class="blank"></div>
+				<div class="pluto overflow">
+					<img class="p9" src="" />
+				</div>
+			</div>
+		</div>
+		<script src="spacescript.js"></script>
+	</body>
+</html>
