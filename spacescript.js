@@ -346,3 +346,10 @@ function expandPluto(elem){
 	plutotext.classList.toggle("text-hide");
 }
 
+function hover(elem){
+	elem.classList.add("hover");
+}
+
+function drop(elem){
+	elem.classList.remove("hover");
+}
