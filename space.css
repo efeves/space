@@ -259,6 +259,10 @@ p{
 		justify-content: center;
 	}
 	
+	p{
+		text-align: center;
+	}
+	
 	img{
 		height: 70vh;
 	}
@@ -276,7 +280,7 @@ p{
 	}
 	
 	.infobox{
-		height:60vh;
+		height:70vh;
 	}
 	
 	.sun{
