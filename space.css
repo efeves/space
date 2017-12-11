@@ -9,9 +9,7 @@ p{
 	font-family: 'Abel', sans-serif;
 }
 
-.hover{
-	box-shadow: 0 0 5px #fff;
-}
+
 
 .subText{
 	font-size: 15px;
@@ -83,6 +81,10 @@ p{
 	body,html{
 		overflow:hidden;
 	}
+	
+        .hover{
+	        box-shadow: 0 0 5px #fff;
+        }
 	
 	.space-flex{
 		display: flex;
