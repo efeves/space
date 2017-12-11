@@ -9,6 +9,10 @@ p{
 	font-family: 'Abel', sans-serif;
 }
 
+.hover{
+	box-shadow: 0 0 5px #fff;
+}
+
 .subText{
 	font-size: 15px;
 }
@@ -76,7 +80,6 @@ p{
 }
 
 @media screen and (min-width: 420px){
-	
 	body,html{
 		overflow:hidden;
 	}
