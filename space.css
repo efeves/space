@@ -75,13 +75,12 @@ p{
 	content:url("pluto/pluto.png");
 }
 
-@media screen and (min-width: 1400px)
+@media screen and (min-width: 420px){
+	
 	body,html{
 		overflow:hidden;
 	}
-
-@media screen and (min-width: 420px){
-		
+	
 	.space-flex{
 		display: flex;
 		flex-wrap: nowrap;
