@@ -15,6 +15,7 @@ p{
 
 .text-hide{
 	visibility: hidden;
+	word-wrap: break-word;
 }
 
 .italic{
@@ -27,7 +28,7 @@ p{
 }
 
 .sizeUp{
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .broken{
@@ -75,6 +76,10 @@ p{
 }
 
 @media screen and (min-width: 420px){
+	body,html{
+		overflow:hidden;
+	}
+	
 	.space-flex{
 		display: flex;
 		flex-wrap: nowrap;
@@ -193,9 +198,7 @@ p{
 		align-items: center;
 	}
 	
-	.noninfo{
-		width:calc(50vw/9)
-	}
+	
 	
 	.infobox{
 		width:20vw;
